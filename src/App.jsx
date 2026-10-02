@@ -338,13 +338,13 @@ function DemoTimeline({ items, plugRef, heroIconRef }) {
       </svg>
 
       {/* Experience items */}
-      <div className="flex flex-col gap-40 pt-40 pb-20 relative z-10 w-full">
+      <div className="flex flex-col gap-16 md:gap-40 pt-20 md:pt-40 pb-10 md:pb-20 relative z-10 w-full px-4 md:px-0">
         {items.map((exp, idx) => {
           const isLeft = idx % 2 === 0;
           return (
             <div key={idx} className={`flex items-center w-full relative ${isLeft ? 'justify-start' : 'justify-end'}`}>
               
-              <div ref={el => (cardRefs.current[idx] = el)} className={`w-[45%] ${isLeft ? 'pr-12' : 'pl-12'}`}>
+              <div ref={el => (cardRefs.current[idx] = el)} className={`w-[85%] md:w-[45%] ${isLeft ? 'pr-4 sm:pr-8 md:pr-12' : 'pl-4 sm:pl-8 md:pl-12'}`}>
                 {/* 
                   GLASSY CARD DESIGN:
                   bg-white/[0.02], backdrop-blur-md, rounded-2xl
