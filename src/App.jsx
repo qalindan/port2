@@ -535,7 +535,7 @@ export default function App() {
 
             {/* Right side: View Resume + Socials */}
             <div className="w-1/2 flex justify-start pl-2 gap-3 items-center">
-              <a href="/resume.pdf" target="_blank" rel="noreferrer" className={`flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#F3AF1B] text-[#050505] font-bold text-sm tracking-wide hover:brightness-110 transition-colors ${!loading ? 'animate-button-glow' : ''}`}>
+              <a href="/Kalkidan%20Binyam%20cv%20updated.pdf" target="_blank" rel="noreferrer" className={`flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#F3AF1B] text-[#050505] font-bold text-sm tracking-wide hover:brightness-110 transition-colors ${!loading ? 'animate-button-glow' : ''}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                 View Resume
               </a>
